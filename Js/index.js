@@ -9,6 +9,7 @@ async function getNews(countryCode, category) {
     console.log(data.articles);
     displayNews(data.articles)
   }
+  
 
   getNews(curentCountry , curentCategoury);
 
